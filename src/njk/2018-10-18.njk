@@ -1,0 +1,16 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[0] %}
+
+{% block page_title %}Blog entry title{% endblock %}
+
+{% block description %}Blog entry description.{% endblock %}
+
+{% block story %}
+  <img src="img/kraken01.jpg" class="img-fluid" alt="Responsive image">
+  <h1>{{ entry.title }}</h1>
+  <h5>Captain's log: {{ entry.date }}</h5>
+  <p>Interloper crimp spanker Barbary Coast splice the main brace bilged on her anchor black spot chandler trysail salmagundi. Brigantine fire ship scallywag log squiffy bowsprit lateen sail American Main cog smartly. Dance the hempen jig bilge log galleon pirate yard list Barbary Coast Corsair run a rig.</p>
+  <p>Scuttle rigging scurvy cog lee nipper Letter of Marque transom Buccaneer Privateer. Chain Shot ho Letter of Marque hornswaggle booty fathom jack bounty maroon Barbary Coast. Nipperkin Barbary Coast measured fer yer chains blow the man down Letter of Marque smartly splice the main brace furl parley starboard.</p>
+  <p>Jib scurvy bilged on her anchor ballast Arr topgallant gaff Yellow Jack stern long clothes. Ballast run a rig gunwalls scourge of the seven seas transom crimp provost league tackle Admiral of the Black. Lass boatswain gally ye bring a spring upon her cable black jack plunder prow cackle fruit keelhaul.</p>
+{% endblock %}
